@@ -49,6 +49,7 @@
       power.findAllPermissions().then(res => {
         console.log(res)
         this.resourceList = res.data.menus
+        
       })
     },
     methods: {
