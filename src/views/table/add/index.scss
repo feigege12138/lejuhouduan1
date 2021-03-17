@@ -1,0 +1,56 @@
+.main{
+  width: 100%;
+  background-color: #f0f2f5;
+  // padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  .main-c{
+    margin:0 auto;
+    width: 95%;
+    background-color: #fff;
+    .title{
+      height: 50px;
+      padding-left: 30px;
+      line-height: 50px;
+      border-bottom: 1px solid rgba(0,0,0,.1);
+    }
+    .demo-ruleForm{
+      width: 70%;
+      margin-top: 30px;
+      display: flex;
+      justify-content:space-between;
+    }
+    .text{
+      width: 70%;
+    }
+    .up{
+      margin-left: 80px;
+    }
+    .cut{
+      width: 95%;
+      margin: 0 auto;
+      margin-top: 40px;
+      
+
+      .cut-title{
+        display: flex;
+        div{
+          margin-right: 30px;
+          color: #606266;
+          font-weight: 700;
+          font-size: 14px;
+        }
+        span{
+        color:  #e6a23c;
+        margin-left: 40px;
+        }
+      }
+    }
+  }
+  
+}
+.btns{
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
