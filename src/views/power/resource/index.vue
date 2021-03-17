@@ -22,7 +22,7 @@
           <template slot-scope="scope">
             <div>{{scope.row.showStatus==0?'不显示':'显示'}}</div>
           </template>
-        </el-table-column>
+        </el-table-column> 
         <el-table-column label="导航栏显示" align="center">
           <template slot-scope="scope">
             <div>{{scope.row.level==0?'不展示':'展示'}}</div>
