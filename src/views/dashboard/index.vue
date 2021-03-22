@@ -2,29 +2,19 @@
   <div ref="dashboard_main" style="background-color:#0a1631;">
 
     <div class="main" style="z-index:999;">
-
-
       <div class="title">
         <Title />
       </div>
-
       <div class="centent">
         <div class="centent-left">
-
-
           <div class="top">
-
-
             <div class="left">
               <ShellData/>
             </div>
-
             <div class="right">
               <BarEchartsBox style="width:100%:height:100%" />
             </div>
-
           </div>
-
           <div class="bottom">
             <div class="b a">
               <EchartsBox style="width:100%;heigth:100%;overflow: hidden;" />
@@ -41,12 +31,7 @@
           <Right/>
         </div>
       </div>
-
     </div>
-
-
-
-
     <!-- canvas背景-->
     <div class="canvasbg">
 
